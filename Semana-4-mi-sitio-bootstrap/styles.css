@@ -1,0 +1,40 @@
+/* PERSONALIZACIÓN DE BOOTSTRAP */
+.btn-primary {
+    background-color: #ff5733;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e94e2f;
+    transform: scale(1.05);
+}
+
+/* CARDS */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* FORMULARIO */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* MEDIA QUERY PROPIA */
+@media (max-width: 576px) {
+    body {
+        background-color: #eef2f5;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
