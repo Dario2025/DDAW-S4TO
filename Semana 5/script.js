@@ -29,7 +29,7 @@ addImageBtn.addEventListener("click", () => {
     imageUrlInput.value = "";
 });
 
-// Eliminar imagen seleccionada
+// Eliminar imagen seleccionadaa
 deleteImageBtn.addEventListener("click", () => {
     if (selectedImage) {
         gallery.removeChild(selectedImage);
