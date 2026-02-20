@@ -1,3 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Barra superior negra */
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff3c00;
+}
+
+/* Contenido principal */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Tarjetas de productos */
+.producto {
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
